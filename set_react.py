@@ -82,7 +82,7 @@ class CustomConfig(Config):
 config = CustomConfig()
 
 
-MODEL_PATH = './models/mask_rcnn_object_0096.h5'  #PATH TO YOUR MODEL
+MODEL_PATH = 'mask_rcnn_object_0096.h5'  #PATH TO YOUR MODEL
 
 
 model = modellib.MaskRCNN(mode="inference", model_dir=MODEL_PATH,config = config)
